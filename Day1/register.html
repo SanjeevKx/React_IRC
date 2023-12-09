@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   <div class="container shadow" style="background-color: rgb(87, 191, 236)" >
+        <h1>Registration form</h1>
+       <form onsubmit="register()">
+           <input type="text" value="" id="userName" placeholder="Name" class="auto-input">
+           <input type="email" value="" id="email" placeholder="Email" class="auto-input">
+           <input type="password" value="" id="password" placeholder="Password" class="auto-input">
+           <input type="password" value="" id="cpassword" placeholder="Confirm password" class="auto-input">
+           <input type="number" value="" id="num" placeholder="Enter Number" class="auto-input">
+           <input type="date" value="enter date" id="date" class="auto-input">
+          
+           <input type="submit" value="Submit" class="auto-btn" style="color: aliceblue;">
+           
+       </form>
+   </div>
+
+</body>
+<script>
+
+    function register(){
+
+        let name= document.getElementById("userName").value;
+        let email= document.getElementById("email").value;
+        let password= document.getElementById("password").value;
+        let number= document.getElementById("num").value;
+        let date= document.getElementById("date").value;
+           
+        let cpassword=document.getElementById("cpassword").value;
+
+   
+if(confirm("yes"))
+{
+    if(password===cpassword)
+    {
+       
+         alert(
+            "Registered number"+"\n"+
+            "Name: "+name+"\n"+
+            "Email: "+email+"\n"+
+            "Password: "+password+"\n"+
+            "Number: "+number+"\n"+
+            "Date: "+date+"\n");
+    }
+    else{
+        alert("Not matched");
+    }   
+}
+  else{
+
+    alert("Failed");
+  }
+   
+
+    }
+
+    
+
+</script>
+</html>
