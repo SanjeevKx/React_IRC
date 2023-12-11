@@ -3,7 +3,7 @@ const Footer =()=> {
     return (
         <>
         <div className="first">
-            <h6>@S99 Agency</h6>
+            <h6>@Football Stars⭐</h6>
         </div>
         </>
     )
