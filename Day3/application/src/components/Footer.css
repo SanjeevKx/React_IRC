@@ -1,0 +1,13 @@
+.first {
+    background-color: #171717f0;
+    bottom:0;
+    right:0;
+    left: 0;
+    overflow: hidden;
+    color:white;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 1.4cm
+}

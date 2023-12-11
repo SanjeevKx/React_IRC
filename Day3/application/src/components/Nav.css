@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    overflow: hidden;
+    text-align: right;
+  }
+
+  .navbar li.hover {
+    background-color: #fcfbfc;
+    color: rgb(5, 5, 5);
+}
+
+.navbar li.active {
+    background-color: #f3f7f6;
+    color: rgb(10, 10, 10);
+}
+  
+  ul {
+    list-style-type:none;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin-left: 30px;
+    color: rgb(248, 243, 243);
+    cursor: pointer;
+  }
+  
