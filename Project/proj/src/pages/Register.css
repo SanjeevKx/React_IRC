@@ -1,0 +1,83 @@
+
+.myform {
+    /* background: #ef32d9; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password
+{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container {
+    height: 34rem; /* Change to 'auto' so it grows with content */
+    width: 20rem;
+    display: flex;
+    background-color: rgb(245, 248, 248);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        transform: rotate(-0.1deg);
+      
+    /* gap: 1rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 1cm;
+}
+
+.auto-input {
+    width: 12rem;
+    height: px;
+    padding: 0.9rem;
+    margin-bottom: 1rem;
+    border-color: black;
+    border-bottom: 2px solid transparent;
+    outline: auto;
+    border-radius: 5px;
+    background-color: rgb(229, 243, 180);
+    font-weight: 600;
+    
+}
+.myform{
+    gap: 0.1rem;
+}
+.auto-btn {
+    width: 11rem;
+    color: aliceblue;
+    padding: 0.8rem;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    background: #8E2DE2;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.auto-input:focus{
+    border-bottom: 3px solid rgb(236, 17, 252);
+}
+
+.shadow
+{
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.107),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.119),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.296),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.07),
+    100px 100px 80px rgba(0, 0, 0, 0.182);
+  
+}

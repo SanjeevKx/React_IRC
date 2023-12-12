@@ -1,14 +1,12 @@
 import "./Footer.css"
-function Footer()
-{
-    return(
-        <footer classname="Navbar">
-         <div>
-            Thankyou
+const Footer =()=> {
+    return (
+        <>
+        <div className="first">
+            <h6>@Football Stars⭐</h6>
         </div>
-        </footer>
-       
+        </>
     )
 }
 
-export default Footer
+export default Footer;

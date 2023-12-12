@@ -9,14 +9,16 @@
     text-align: right;
   }
 
-  .navbar li.hover {
-    background-color: #fcfbfc;
-    color: rgb(5, 5, 5);
+  /* Navbar.css */
+
+.navbar li:hover {
+  background-color: #f3f7f6;
+  color: rgb(10, 10, 10);
 }
 
 .navbar li.active {
-    background-color: #f3f7f6;
-    color: rgb(10, 10, 10);
+  background-color: #fcfbfc;
+  color: rgb(5, 5, 5);
 }
   
   ul {
