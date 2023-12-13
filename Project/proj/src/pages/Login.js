@@ -21,9 +21,9 @@ function Login() {
     const { userName, password } = formData;
 
     if (window.confirm('Do you want to proceed?')) {
-      alert(
-       'Congrats! You have logged-in successfully'
-      );
+      alert('Congrats! You have logged in successfully');
+      // Redirect to Sidebar.js (replace with the actual path)
+      window.location.href = '/Sidebar';
     } else {
       alert('Failed');
     }
@@ -31,7 +31,7 @@ function Login() {
 
   return (
     <div className="container1 shadow1">
-      <h1>Login</h1>
+      <h1 className="color">Login</h1>
       <form className="myform" onSubmit={handleSubmit}>
         <input
           type="text"

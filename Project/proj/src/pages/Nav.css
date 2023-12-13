@@ -3,7 +3,7 @@
     top: 0;
     right: 0;
     left: 0;
-    background-color: #212020;
+    background-color: rgb(43, 43, 43);
     padding: 12px;
     overflow: hidden;
     text-align: right;
@@ -12,7 +12,7 @@
 
   .navbar li:hover {
     background-color: #d3cecefc;
-    border-radius: 6px;
+    border-radius: 3px;
     color: rgb(5, 5, 5);
 }
 

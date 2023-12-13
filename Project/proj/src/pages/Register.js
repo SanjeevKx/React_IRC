@@ -37,11 +37,12 @@ function Register() {
         'Number: ' + num + '\n' +
         'Date: ' + date
     );
+    window.location.href = '/Sidebar';
   };
 
   return (
     <div className="container shadow">
-      <h2>Register Form</h2>
+      <h2 className="color">Register Form</h2>
       <form className="myform" onSubmit={handleSubmit}>
         <input
           type="text"

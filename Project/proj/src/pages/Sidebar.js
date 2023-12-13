@@ -6,8 +6,8 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div id="sidebar">
-      <header>
-        <a href="#">Sports Emporium</a>
+      <header className="header">
+        <a href="#">Sports Emporium </a>
       </header>
       <ul className="nav">
         <li className="dashboard-item">
