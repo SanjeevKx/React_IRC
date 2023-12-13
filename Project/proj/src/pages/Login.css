@@ -4,8 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin: 0;
   }
+
+  .password1
+{
+    font-weight: 10px;
+    font-size: 1rem;
+}
   
   .container1 {
     height: 50vh; /* Change to 'auto' so it grows with content */
@@ -19,6 +25,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     border-radius: 1cm;
+    margin: 10rem auto;
   }
   
   .auto-input1 {

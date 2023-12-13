@@ -1,61 +1,63 @@
 import React, { useState } from 'react';
-import './Login.css'; // Import your CSS file
+import './Login.css';
 
-const Login= () => {
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
-  const [cpassword, setCPassword] = useState('');
+function Login() {
+  const [formData, setFormData] = useState({
+    userName: '',
+    password: '',
+  });
 
-  const register = () => {
-    if (window.confirm('Do you want to register?')) {
-      if (password === cpassword) {
-        alert(
-          `Registered Information:\nUser: ${name}\nPassword: ${password}`
-        );
-      } else {
-        alert('Passwords do not match');
-      }
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [id]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { userName, password } = formData;
+
+    if (window.confirm('Do you want to proceed?')) {
+      alert(
+       'Congrats! You have logged-in successfully'
+      );
     } else {
-      alert('Registration canceled');
+      alert('Failed');
     }
   };
 
   return (
-    <div className="container1">
-      <div className="auto-input1">
-      <label>
-        Name:
+    <div className="container1 shadow1">
+      <h1>Login</h1>
+      <form className="myform" onSubmit={handleSubmit}>
         <input
           type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          value={formData.userName}
+          id="userName"
+          placeholder="Name"
+          className="auto-input1"
+          onChange={handleChange}
         />
-      </label>
-      <br />
-      <label>
-        Password:
         <input
           type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          value={formData.password}
+          id="password"
+          placeholder="Enter password"
+          className="auto-input1"
+          onChange={handleChange}
         />
-      </label>
-      <br />
-      <label>
-        Confirm Password:
-        <input
-          type="password"
-          value={cpassword}
-          onChange={(e) => setCPassword(e.target.value)}
-        />
-      </label>
-      <br />
-      <button className="auto-btn1" onClick={register}>
-        Register
-      </button>
-    </div>    
+        <input type="submit" value="Submit" className="auto-btn1" />
+        <div>
+          <p className="password1">
+            Forget Password ?<a href="Register.js">click here!</a>{' '}
+          </p>
+        </div>
+      </form>
     </div>
   );
-};
+}
 
 export default Login;

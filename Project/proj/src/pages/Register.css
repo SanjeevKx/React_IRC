@@ -35,6 +35,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     border-radius: 1cm;
+    margin: 4.5rem auto;
 }
 
 .auto-input {
