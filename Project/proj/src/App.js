@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Nav from './pages/Nav.js'
+// import Nav from './pages/Nav.js'
 import Home from './pages/Home.js'
 import Login from './pages/Login.js'
 // import Footer from './components/Footer.js'
@@ -10,11 +10,13 @@ import Sidebar from "./pages/Sidebar.js";
 // import Login from './components/Login.js'
 import Footer from "./pages/Footer.js";
 import {Route, Routes } from "react-router-dom"
+import Navbar from './pages/Navbar.js';
+// import Abouts from './pages/Abouts.js';
 
 function App() {
   return (
     <>
-     <Nav/>
+     <Navbar/>
       <Footer/>
       <Routes>
         <Route path="/home" element={<Home />}/>
