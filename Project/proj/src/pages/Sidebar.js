@@ -1,6 +1,7 @@
 // Sidebar.js
 
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -73,6 +74,21 @@ const Sidebar = () => {
             <li><a href="#">Squash</a></li>
           </ul>
         </li>
+        
+        <div>
+      <Helmet>
+        {/* Add the Google Fonts link using Helmet */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+      </Helmet>
+
+      {/* Your component content */}
+      <div style={{ fontFamily: 'Material Symbols Outlined', fontSize: '24px' }}>
+        
+      </div>
+    </div>
        
       </ul>
     </div>
