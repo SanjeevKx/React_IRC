@@ -10,12 +10,20 @@ import Sidebar from "./pages/Sidebar.js";
 // import Login from './components/Login.js'
 import Footer from "./pages/Footer.js";
 import {Route, Routes } from "react-router-dom"
-import Navbar from './pages/Nav.js';
+import About from './pages/About.js';
+import Admin from './pages/Admin.js';
+import Owner from './pages/Owner.js';
+import ProductContainer from './pages/ProductContainer.js';
+import { User } from 'lucide-react';
+
+import Usertable from './pages/Usertable.js';
+
 // import Abouts from './pages/Abouts.js';
 
 function App() {
   return (
     <>
+  
      <Nav/>
       <Footer/>
       <Routes>
@@ -23,6 +31,12 @@ function App() {
         <Route path="/sidebar" element={<Sidebar />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/register" element={<Register />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/admin" element={<Admin />}/>
+        {/* <Route path="/owner" element={<Owner/>}/> */}
+        <Route path="/Usertable" element={<Usertable/>} />
+    
+
       </Routes>
 
     </>

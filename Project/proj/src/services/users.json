@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "sanjeev",
+      "email": "sanj@gmail.com",
+      "password": "2710",
+      "dob": "58903-q5",
+    },
+    {
+      "username": "sanjeev",
+      "email": "sanjeev@gmail.com",
+      "password": "2710",
+      "dob": "58903-q5"
+    },
+    {
+      "username": "sanjeev",
+      "email": "sanjeev@gmail.com",
+      "password": "2710",
+      "dob": "58903-q5"
+    },
+    {
+      "username": "sanjeev",
+      "email": "sanjeev@gmail.com",
+      "password": "2710",
+      "dob": "58903-q5"
+    },
+   
+  ]
+}

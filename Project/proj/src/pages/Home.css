@@ -1,7 +1,7 @@
-  Home body {
+  .app {
     margin: 0;
     min-height: 100vh;
-    background: #8b948b;
+    background: #e4e7e4;
     font-family: sans-serif;
     display: flex;
     justify-content: center;

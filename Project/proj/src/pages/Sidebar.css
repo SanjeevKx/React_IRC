@@ -2,7 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
 
-body {
+.log{
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%;
+  color:#f4f824;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#sidebar body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -25,6 +36,10 @@ body {
 
 /* Sidebar Styles */
 
+#sidebar li{
+  font-family: 'Roboto', sans-serif;
+}
+
 #sidebar {
   z-index: 1000;
   position: fixed;
@@ -40,11 +55,12 @@ body {
 }
 
 #sidebar header {
-  background-color: #2a2a2d;
-  font-size: 20px;
-  line-height: 52px;
+  background-color:#3d3d3d;
+  font-size: 25px;
+  line-height: 53px;
   text-align: center;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
 #sidebar header a {
@@ -82,6 +98,10 @@ body {
   margin-right: 16px;
 }
 
+.log{
+  display: inline;
+  margin-left: 100px;
+}
 /* Media query for responsive design */
 @media (max-width: 768px) {
   #viewport {
@@ -140,6 +160,7 @@ body {
 .dashboard-item:hover .sublist {
   display: block; /* Show sublist on hover */
 }
+
 
 /* Optional: Add styles for touch events */
 @media (hover: none) {

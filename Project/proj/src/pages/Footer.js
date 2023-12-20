@@ -1,12 +1,19 @@
-import "./Footer.css"
-const Footer =()=> {
-    return (
-        <>
-        <div className="first">
-            <h6>@Sports Emporium⭐</h6>
-        </div>
-        </>
-    )
-}
+import React from "react";
+// import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import "./Footer.css";
+import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <>
+      <div className="footer-container">
+        
+        <div class='first'>Follow us on</div>
+        <div className="sec"> 
+         <Facebook/> <Twitter/> <Instagram/> <Linkedin/></div>
+      </div>
+    </>
+  );
+};
 
 export default Footer;
