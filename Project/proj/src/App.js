@@ -12,7 +12,6 @@ import Footer from "./pages/Footer.js";
 import {Route, Routes } from "react-router-dom"
 import About from './pages/About.js';
 import Admin from './pages/Admin.js';
-import Owner from './pages/Owner.js';
 import ProductContainer from './pages/ProductContainer.js';
 import { User } from 'lucide-react';
 

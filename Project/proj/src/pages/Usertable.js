@@ -45,7 +45,6 @@ const Usertable =()=> {
                     <th>Username</th>
                     <th>E-mail</th>
                     <th>Password</th>
-                    <th>DOB</th>
                     <th>Delete</th>
                  </tr>
                </thead>
@@ -56,7 +55,6 @@ const Usertable =()=> {
                     <td>{user.username}</td>
                     <td>{user.email}</td>
                     <td>{user.password}</td>
-                    <td>{user.dob}</td>
                     <td><button className="tablet" onClick={()=>handleDelete(user.id)}><Trash2 /></button></td>
                   </tr>
                   ))

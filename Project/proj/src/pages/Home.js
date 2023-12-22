@@ -5,7 +5,7 @@ import Img1 from "./kohli.jpg"
 import Img3 from "./wwe.jpg"
 import Img4 from "./basketball.jpg"
 import Img5 from "./hockey1.jpg"
-import './Home.css'
+import './home.css'
 export default function Home() {
   return (
     <div className="app">

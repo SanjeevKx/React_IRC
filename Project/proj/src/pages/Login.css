@@ -14,8 +14,10 @@ background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Fi
     41.8px 41.8px 33.4px rgba(0, 0, 0, 0.07),
     100px 100px 80px rgba(0, 0, 0, 0.182);
   
-  margin: 20px;
-  position:-webkit-sticky;
+  /* margin: 20px; */
+  margin-top: 7rem;
+  margin-left: 37rem;
+  position:absolute;
   left: 0;
   right: 0;
   top: 0;

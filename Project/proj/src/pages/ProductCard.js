@@ -1,10 +1,10 @@
-// ProductCard.js
+// Productcard12.js
 import React from 'react';
-import './ProductCard.css'
-const ProductCard = () => {
+import './productcard.css'
+const Productcard12 = () => {
   return (
     <section className="product-container product-1">
-      <div className="card">
+      <div className="card12">
         <div className="photo"></div>
         <div className="content">
           <div className="mytitle">Football Boots</div>
@@ -25,7 +25,7 @@ const ProductCard = () => {
           <button className="btn-buy">Add to Cart</button>
         </div>
       </div>
-      <div className="card">
+      <div className="card12">
         <div className="photo"></div>
         <div className="content">
           <div className="mytitle">Football socks</div>
@@ -67,7 +67,7 @@ const ProductCard = () => {
           <button className="btn-buy">Add to cart</button>
         </div>
       </div>
-      <div className="card">
+      <div className="card12">
         <div className="photo"></div>
         <div className="content">
           <div className="mytitle">Football Jersey</div>
@@ -92,4 +92,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default Productcard12;

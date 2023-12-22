@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 import Img from './cricket.jpg'
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 const About = () => {

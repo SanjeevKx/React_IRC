@@ -9,7 +9,7 @@
   left: 0;
   width: 200%;
   color:#f4f824;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Robotzo', sans-serif;
 
 }
 
@@ -48,9 +48,8 @@
   height: 100%;
   width: 250px;
   overflow-y: auto;
-  background: #6441A5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #3d3d3d;
+
     
 }
 
@@ -82,7 +81,7 @@
   background: none;
   border-bottom: 1px solid #188bc1;
   color: #f4fafd;
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px 24px;
   text-decoration: none;
   display: flex;

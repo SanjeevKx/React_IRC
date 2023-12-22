@@ -1,7 +1,7 @@
 // Sidebar.js
 
 import React from 'react';
-import './Sidebar.css';
+import './sidebar.css';
 import { CircleUser, LogOut } from 'lucide-react';
 import ProductContainer from './ProductContainer';
 import ProductCard from './ProductCard';

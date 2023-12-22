@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './Admin.css';
+import './admin.css';
 import { EyeOff, LockKeyhole, UserCog } from 'lucide-react';
 
 const Admin = () => {
@@ -14,7 +14,7 @@ const Admin = () => {
     e.preventDefault();
 
     // Check the username and password
-    if (username === 'sanjeev' && password === 'san@ju1234') {
+    if (username === 'sanjeev' && password === '123') {
         toast.success('Login successful!', {
             position: 'bottom-center',
             autoClose: 1200,
